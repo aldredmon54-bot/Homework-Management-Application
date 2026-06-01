@@ -16,10 +16,9 @@ The Homework Management System is a Python-based application designed to help st
 - Object-Oriented Programming (OOP)
 
 ## Group Members
-- Project Manager
-- Programmer
-- Tester
-- Documentation Specialist
+- Aloha Jil Gozarin
+- Rhandie Mari Guan
+- Aldred C. Valdez
 
 ## How to Run
 1. Download the Python file.
