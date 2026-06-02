@@ -1,28 +1,126 @@
+Homework Management System
 
-# Homework Management System
+Project Description
 
-## Project Overview
-The Homework Management System is a Python-based application designed to help students organize and manage their homework efficiently.
+Homework Management System is a standalone Python application designed to help students efficiently organize, track, and manage their homework tasks in one centralized system.
 
-## Features
-- Add Homework
-- View Homework
-- Mark Homework as Done
-- Generate Reports
-- Automatic Priority Calculation
-- Input Validation
+The application allows users to:
 
-## Technologies Used
-- Python
-- Object-Oriented Programming (OOP)
+• Add and manage homework tasks, including title, description, subject, and deadline.
 
-## Group Members
-- Aloha Jil Gozarin
-- Rhandie Mari Guan
-- Aldred C. Valdez
+• Create and organize subtasks for each homework activity.
 
-## How to Run
-1. Download the Python file.
-2. Open it using Python.
-3. Run the program.
-4. Use the menu to manage homework tasks.
+• Automatically assign priority levels based on due dates using a Priority Engine.
+
+• Mark homework tasks as completed and monitor their status.
+
+• Generate summary reports showing total homework, completed tasks, pending tasks, overdue tasks, and completion rates.
+
+Built with a simple Command-Line Interface (CLI), the system emphasizes usability, efficiency, and accessibility. The application operates entirely offline and follows a structured Input → Process → Output model, ensuring reliable performance without requiring external databases or internet connectivity.
+
+Through this application, students can improve time management, monitor academic responsibilities, avoid missed deadlines, and maintain productivity throughout their studies.
+
+OOP Concepts Used
+
+This project demonstrates core Object-Oriented Programming principles:
+
+Encapsulation
+
+Data and behaviors are organized within classes such as Homework, Validation, PriorityEngine, and ReportGenerator.
+
+Abstraction
+
+Each class focuses on a specific responsibility, simplifying the overall system design.
+
+Polymorphism
+
+Methods such as display() and generate_report() perform different operations depending on the object and context in which they are used.
+
+Modularity
+
+The program is divided into separate classes that handle homework management, validation, priority assignment, and report generation.
+
+Technologies Used
+
+• Python 3
+
+• Command-Line Interface (CLI)
+
+• Date and Time Handling using Python's datetime module
+
+• Object-Oriented Programming (OOP)
+
+Main Features
+
+Feature 1 – Add Homework
+
+Allows users to enter homework details including title, description, subject, deadline, and subtasks.
+
+Feature 2 – Homework Validation
+
+Validates required fields and ensures the deadline follows the YYYY-MM-DD format.
+
+Feature 3 – Automatic Priority Assignment
+
+Uses the Priority Engine to determine whether homework is LOW, MEDIUM, HIGH, CRITICAL, or OVERDUE.
+
+Feature 4 – View Homework
+
+Displays all homework records along with their details, priorities, and completion status.
+
+Feature 5 – Mark Homework as Done
+
+Allows users to update homework status from Pending to Completed.
+
+Feature 6 – Generate Report
+
+Creates a summary report showing total homework, completed tasks, pending tasks, overdue tasks, and completion percentage.
+
+Project Structure
+
+Homework-Management-System/
+
+│
+
+├── homework_management_system.py
+
+├── README.md
+
+
+How to Run
+
+Requirements
+
+Python 3.x
+
+Clone this Repository
+
+git clone https://github.com/yourusername/Homework-Management-Application.git
+
+Navigate to the Project Folder
+
+cd Homework-Management-Application
+
+Run the Application
+
+python homework_management_system.py
+
+Sample Menu
+
+1. Add Homework
+
+2. View Homework
+
+3. Mark Homework as Done
+
+4. Generate Report
+
+5. Exit
+
+Author
+
+Aloha Jil Gozarin
+Rhandie Mari Guan
+Aldred C. Valdez
+
+This project demonstrates the application of Object-Oriented Programming principles through the development of a Homework Management System that helps students efficiently manage academic tasks and deadlines.
