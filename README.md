@@ -95,7 +95,8 @@ Python 3.x
 
 Clone this Repository
 
-git clone https://github.com/yourusername/Homework-Management-Application.git
+git clone
+https://github.com/aldredmon54-bot/Homework-Management-Application
 
 Navigate to the Project Folder
 
