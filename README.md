@@ -1,4 +1,4 @@
-Homework Management System
+7Homework Management System
 
 Project Description
 
@@ -120,8 +120,11 @@ Sample Menu
 
 Author
 
-Aloha Jil Gozarin
+Aloha Jil Gozarin (https://github.com/gozarinalohajil)
+
 Rhandie Mari Guan
-Aldred C. Valdez
+
+Aldred C. Valdez (https://github.com/aldredmon54-bot?tab=repositories)
+
 
 This project demonstrates the application of Object-Oriented Programming principles through the development of a Homework Management System that helps students efficiently manage academic tasks and deadlines.
